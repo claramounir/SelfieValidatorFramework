@@ -8,11 +8,41 @@
 
 /* Begin PBXBuildFile section */
 		B8B7DB2B2A5C496400BBF408 /* SelfieFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = B8B7DB2A2A5C496400BBF408 /* SelfieFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8B7DB462A5C4A0500BBF408 /* Bundle+pod.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B7DB322A5C4A0500BBF408 /* Bundle+pod.swift */; };
+		B8B7DB472A5C4A0500BBF408 /* UIViewController+identifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B7DB332A5C4A0500BBF408 /* UIViewController+identifier.swift */; };
+		B8B7DB482A5C4A0500BBF408 /* UIViewController+Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B7DB342A5C4A0500BBF408 /* UIViewController+Toast.swift */; };
+		B8B7DB492A5C4A0500BBF408 /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B7DB362A5C4A0500BBF408 /* CameraController.swift */; };
+		B8B7DB4A2A5C4A0500BBF408 /* FaceDetectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B7DB372A5C4A0500BBF408 /* FaceDetectionManager.swift */; };
+		B8B7DB4B2A5C4A0500BBF408 /* TakenImageResultViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8B7DB3A2A5C4A0500BBF408 /* TakenImageResultViewController.xib */; };
+		B8B7DB4C2A5C4A0500BBF408 /* TakenImageResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B7DB3B2A5C4A0500BBF408 /* TakenImageResultViewController.swift */; };
+		B8B7DB4D2A5C4A0500BBF408 /* TakenImageResultViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B7DB3C2A5C4A0500BBF408 /* TakenImageResultViewModel.swift */; };
+		B8B7DB4E2A5C4A0500BBF408 /* TakenImageResultViewContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B7DB3D2A5C4A0500BBF408 /* TakenImageResultViewContract.swift */; };
+		B8B7DB4F2A5C4A0500BBF408 /* TakenImageResultWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B7DB3E2A5C4A0500BBF408 /* TakenImageResultWireFrame.swift */; };
+		B8B7DB502A5C4A0500BBF408 /* SelfieValidatorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8B7DB402A5C4A0500BBF408 /* SelfieValidatorViewController.xib */; };
+		B8B7DB512A5C4A0500BBF408 /* SelfieValidatorContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B7DB412A5C4A0500BBF408 /* SelfieValidatorContract.swift */; };
+		B8B7DB522A5C4A0500BBF408 /* SelfieValidatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B7DB422A5C4A0500BBF408 /* SelfieValidatorViewController.swift */; };
+		B8B7DB532A5C4A0500BBF408 /* SelfieValidatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B7DB432A5C4A0500BBF408 /* SelfieValidatorViewModel.swift */; };
+		B8B7DB542A5C4A0500BBF408 /* SelfieValidatorWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B7DB442A5C4A0500BBF408 /* SelfieValidatorWireframe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B8B7DB272A5C496400BBF408 /* SelfieFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SelfieFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8B7DB2A2A5C496400BBF408 /* SelfieFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelfieFramework.h; sourceTree = "<group>"; };
+		B8B7DB322A5C4A0500BBF408 /* Bundle+pod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle+pod.swift"; sourceTree = "<group>"; };
+		B8B7DB332A5C4A0500BBF408 /* UIViewController+identifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+identifier.swift"; sourceTree = "<group>"; };
+		B8B7DB342A5C4A0500BBF408 /* UIViewController+Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Toast.swift"; sourceTree = "<group>"; };
+		B8B7DB362A5C4A0500BBF408 /* CameraController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
+		B8B7DB372A5C4A0500BBF408 /* FaceDetectionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceDetectionManager.swift; sourceTree = "<group>"; };
+		B8B7DB3A2A5C4A0500BBF408 /* TakenImageResultViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TakenImageResultViewController.xib; sourceTree = "<group>"; };
+		B8B7DB3B2A5C4A0500BBF408 /* TakenImageResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TakenImageResultViewController.swift; sourceTree = "<group>"; };
+		B8B7DB3C2A5C4A0500BBF408 /* TakenImageResultViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TakenImageResultViewModel.swift; sourceTree = "<group>"; };
+		B8B7DB3D2A5C4A0500BBF408 /* TakenImageResultViewContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TakenImageResultViewContract.swift; sourceTree = "<group>"; };
+		B8B7DB3E2A5C4A0500BBF408 /* TakenImageResultWireFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TakenImageResultWireFrame.swift; sourceTree = "<group>"; };
+		B8B7DB402A5C4A0500BBF408 /* SelfieValidatorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelfieValidatorViewController.xib; sourceTree = "<group>"; };
+		B8B7DB412A5C4A0500BBF408 /* SelfieValidatorContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelfieValidatorContract.swift; sourceTree = "<group>"; };
+		B8B7DB422A5C4A0500BBF408 /* SelfieValidatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelfieValidatorViewController.swift; sourceTree = "<group>"; };
+		B8B7DB432A5C4A0500BBF408 /* SelfieValidatorViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelfieValidatorViewModel.swift; sourceTree = "<group>"; };
+		B8B7DB442A5C4A0500BBF408 /* SelfieValidatorWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelfieValidatorWireframe.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,9 +75,72 @@
 		B8B7DB292A5C496400BBF408 /* SelfieFramework */ = {
 			isa = PBXGroup;
 			children = (
+				B8B7DB352A5C4A0500BBF408 /* Core */,
+				B8B7DB312A5C4A0500BBF408 /* Extensions */,
+				B8B7DB382A5C4A0500BBF408 /* Modules */,
 				B8B7DB2A2A5C496400BBF408 /* SelfieFramework.h */,
 			);
 			path = SelfieFramework;
+			sourceTree = "<group>";
+		};
+		B8B7DB312A5C4A0500BBF408 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B8B7DB322A5C4A0500BBF408 /* Bundle+pod.swift */,
+				B8B7DB332A5C4A0500BBF408 /* UIViewController+identifier.swift */,
+				B8B7DB342A5C4A0500BBF408 /* UIViewController+Toast.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B8B7DB352A5C4A0500BBF408 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				B8B7DB362A5C4A0500BBF408 /* CameraController.swift */,
+				B8B7DB372A5C4A0500BBF408 /* FaceDetectionManager.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		B8B7DB382A5C4A0500BBF408 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				B8B7DB392A5C4A0500BBF408 /* ImageResult */,
+				B8B7DB3F2A5C4A0500BBF408 /* SelfieModule */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		B8B7DB392A5C4A0500BBF408 /* ImageResult */ = {
+			isa = PBXGroup;
+			children = (
+				B8B7DB3A2A5C4A0500BBF408 /* TakenImageResultViewController.xib */,
+				B8B7DB3B2A5C4A0500BBF408 /* TakenImageResultViewController.swift */,
+				B8B7DB3C2A5C4A0500BBF408 /* TakenImageResultViewModel.swift */,
+				B8B7DB3D2A5C4A0500BBF408 /* TakenImageResultViewContract.swift */,
+				B8B7DB3E2A5C4A0500BBF408 /* TakenImageResultWireFrame.swift */,
+			);
+			path = ImageResult;
+			sourceTree = "<group>";
+		};
+		B8B7DB3F2A5C4A0500BBF408 /* SelfieModule */ = {
+			isa = PBXGroup;
+			children = (
+				B8B7DB402A5C4A0500BBF408 /* SelfieValidatorViewController.xib */,
+				B8B7DB412A5C4A0500BBF408 /* SelfieValidatorContract.swift */,
+				B8B7DB422A5C4A0500BBF408 /* SelfieValidatorViewController.swift */,
+				B8B7DB432A5C4A0500BBF408 /* SelfieValidatorViewModel.swift */,
+				B8B7DB442A5C4A0500BBF408 /* SelfieValidatorWireframe.swift */,
+				B8B7DB452A5C4A0500BBF408 /* SelfieValidatorContract */,
+			);
+			path = SelfieModule;
+			sourceTree = "<group>";
+		};
+		B8B7DB452A5C4A0500BBF408 /* SelfieValidatorContract */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SelfieValidatorContract;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +212,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8B7DB4B2A5C4A0500BBF408 /* TakenImageResultViewController.xib in Resources */,
+				B8B7DB502A5C4A0500BBF408 /* SelfieValidatorViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,6 +224,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8B7DB462A5C4A0500BBF408 /* Bundle+pod.swift in Sources */,
+				B8B7DB4C2A5C4A0500BBF408 /* TakenImageResultViewController.swift in Sources */,
+				B8B7DB482A5C4A0500BBF408 /* UIViewController+Toast.swift in Sources */,
+				B8B7DB492A5C4A0500BBF408 /* CameraController.swift in Sources */,
+				B8B7DB4F2A5C4A0500BBF408 /* TakenImageResultWireFrame.swift in Sources */,
+				B8B7DB472A5C4A0500BBF408 /* UIViewController+identifier.swift in Sources */,
+				B8B7DB4A2A5C4A0500BBF408 /* FaceDetectionManager.swift in Sources */,
+				B8B7DB532A5C4A0500BBF408 /* SelfieValidatorViewModel.swift in Sources */,
+				B8B7DB4D2A5C4A0500BBF408 /* TakenImageResultViewModel.swift in Sources */,
+				B8B7DB522A5C4A0500BBF408 /* SelfieValidatorViewController.swift in Sources */,
+				B8B7DB512A5C4A0500BBF408 /* SelfieValidatorContract.swift in Sources */,
+				B8B7DB4E2A5C4A0500BBF408 /* TakenImageResultViewContract.swift in Sources */,
+				B8B7DB542A5C4A0500BBF408 /* SelfieValidatorWireframe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
